@@ -34,7 +34,7 @@
       {
         "execute_command": "echo '{{ user `ssh_password` }}' | {{.Vars}} sudo -E -S bash -x '{{.Path}}'",
         "scripts": [
-          "setup.sh"
+          "./scripts/setup.sh"
         ],
         "type": "shell"
       },
