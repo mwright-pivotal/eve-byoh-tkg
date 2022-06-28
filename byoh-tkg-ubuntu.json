@@ -63,7 +63,7 @@
       "disk_size": "8192",
       "memory": "2048M",
       "ssh_username": "ubuntu",
-      "ssh_password": "VMwareEdge1!",
+      "ssh_password": "ubuntu",
       "vm_name": "byoh-tkg-{{timestamp}}.qcow2"
     }
 }
